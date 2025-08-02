@@ -1,0 +1,31 @@
+nav {
+  background-color: #0070f3;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+nav .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  user-select: none;
+}
+
+nav .links a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav .links a:last-child {
+  margin-right: 0;
+}
+
+nav .links a:hover {
+  color: #ffcc00;
+}
