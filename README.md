@@ -1,2 +1,0 @@
-# domainlatinplus
-todo en dominios
